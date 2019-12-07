@@ -1,11 +1,10 @@
 ---
-author: Themefisher
-date: "2018-07-08T12:22:40+06:00"
-image: images/blog/post-1.jpg
-tags:
-- install
-title: How To Setup Timer Hugo
+title: "How To Setup Timer Hugo"
+date: 2018-07-08T12:22:40+06:00
 type: post
+image: images/blog/post-1.jpg
+author: Themefisher
+tags: ["install"]
 ---
 
 ## Install this template by following those simple steps:

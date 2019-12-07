@@ -1,6 +1,6 @@
-baseURL = "http://example.org/"
+baseURL = "https://suspicious-booth-fced28.netlify.com"
 languageCode = "en-us"
-title = "Timer | Responsive Multipurpose Bootstrap Hugo Template"
+title = "Matt Malishev"
 theme = "timer-hugo"
 
 # We Used Ionicons Icon font for Icon, for more details check this link - https://ionicons.com/
@@ -13,16 +13,16 @@ theme = "timer-hugo"
         url     = "about"
         weight  = 2
     [[menu.nav]]
+        name    = "Blog"
+        url     = "blog"
+        weight  = 3
+    [[menu.nav]]
         name    = "Service"
         url     = "service"
-        weight  = 3
+        weight  = 4
     [[menu.nav]]
         name    = "Gallery"
         url     = "gallery"
-        weight  = 4
-    [[menu.nav]]
-        name    = "Blog"
-        url     = "blog"
         weight  = 5
     [[menu.nav]]
         name    = "Contact"
@@ -32,43 +32,43 @@ theme = "timer-hugo"
 # Site Params
 [params]
     home = "Home"
-    logo = "images/logo.png"
+    logo = "images/mm.jpg"
     dateFormat = "6 January 2006"
     # Meta data
-    description = "Airspace Hugo theme"
-    author = "Themefisher"
+    description = "darwinanddavis"
+    author = "Matt Malishev"
     # Google Analitycs
-    googleAnalitycsID = "Your ID"
+    googleAnalitycsID = "darwinanddavis"
 
     # Banner Section
     [params.banner]
         enable  = true
         bgImage = "images/slider.jpg"
-        heading = "HI, MY NAME IS JONATHON & I AM A"
-        description = "WITH 10 YEARS EXPERIENCE, I'VE OCCUPIED MANY ROLES INCLUDING DIGITAL DESIGN DIRECTOR, WEB DESIGNER AND DEVELOPER. THIS SITE SHOWCASES SOME OF MY WORK."
+        heading = "Matt Malishev"
+        description = "I like my data diverse, my methods savvy, my analyses reproducible, and my outputs open access."
         btn     = true
-        btnText = "Download More"
-        btnURL  = "https://themefisher.com/"
+        btnText = "Check out my projects"
+        btnURL  = "projects"
         [[params.banner.flipText]]
-            title   = "DESIGNER"
+            title   = "spatial modelling"
         [[params.banner.flipText]]
-            title   = "DEVELOPER"
+            title   = "simulation modelling"
         [[params.banner.flipText]]
-            title   = "FATHER"
+            title   = "geospatial analytics"
 
     # Homepage About Section
     [params.about]
         enable  = true
-        title   = "ABOUT ME"
-        content = "Hello, I’m a UI/UX Designer & Front End Developer from Victoria, Australia. I hold a master degree of Web Design from the World University.And scrambled it to make a type specimen book. It has survived not only five centuries. <br> <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, adipisci voluptatum repudiandae, natus impedit repellat aut officia illum at assumenda iusto reiciendis placeat. Temporibus, vero."
-        image   = "images/about/about.jpg"
+        title   = "Bio"
+        content = "I’m a computational researcher at Emory University working on diverse data analysis problems from simulation modelling of human disease risk to spatial and bioenergetic modelling of ecological systems."
+        image   = "images/mm_large.jpg"
 
     # Call to Action
     [params.cta]
         enable  = true
         title   = "SO WHAT YOU THINK ?"
         content = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis,<br>possimus commodi, fugiat magnam temporibus vero magni recusandae? Dolore, maxime praesentium."
-        btnText = "Contact with me"
+        btnText = "Connect with me"
         btnURL  = "/contact"
 
     # Portfolio Section On Homepage
