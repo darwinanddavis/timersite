@@ -43,7 +43,7 @@ theme = "timer-hugo"
     # Banner Section
     [params.banner]
         enable  = true
-        bgImage = "images/slider.jpg"
+        bgImage = "images/header.jpg"
         heading = "Matt Malishev"
         description = "I like my data diverse, my methods savvy, my analyses reproducible, and my outputs open access."
         btn     = true
