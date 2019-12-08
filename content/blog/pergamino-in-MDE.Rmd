@@ -9,5 +9,7 @@ categories:
 tags:
   - south america
   - mde
-image: static/images/blog/pergamino-in-MDE/pergamino.jpg
+image: images/blog/pergamino.jpg
 ---
+
+# That time in Medellin 
