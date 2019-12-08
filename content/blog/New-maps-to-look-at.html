@@ -1,6 +1,6 @@
 ---
 title: New maps to look at
-author: Matt Malishev
+author: ~
 date: '2019-12-07'
 slug: New-maps-to-look-at
 categories:
@@ -9,43 +9,8 @@ categories:
 tags:
   - maps
   - spatial
-image: /blog/New-maps-to-look-at_files/map_post.jpg # found in static 
 ---
 
-<script src="/rmarkdown-libs/htmlwidgets/htmlwidgets.js"></script>
-<script src="/rmarkdown-libs/jquery/jquery.min.js"></script>
-<link href="/rmarkdown-libs/leaflet/leaflet.css" rel="stylesheet" />
-<script src="/rmarkdown-libs/leaflet/leaflet.js"></script>
-<link href="/rmarkdown-libs/leafletfix/leafletfix.css" rel="stylesheet" />
-<script src="/rmarkdown-libs/Proj4Leaflet/proj4-compressed.js"></script>
-<script src="/rmarkdown-libs/Proj4Leaflet/proj4leaflet.js"></script>
-<link href="/rmarkdown-libs/rstudio_leaflet/rstudio_leaflet.css" rel="stylesheet" />
-<script src="/rmarkdown-libs/leaflet-binding/leaflet.js"></script>
 
 
-<div id="new-data-viz-for-spatial-data" class="section level1">
-<h1>New data viz for spatial data</h1>
-<pre class="r"><code>require(leaflet)</code></pre>
-<pre><code>## Loading required package: leaflet</code></pre>
-<pre class="r"><code>require(dplyr)</code></pre>
-<pre><code>## Loading required package: dplyr</code></pre>
-<pre><code>## Warning: package &#39;dplyr&#39; was built under R version 3.5.2</code></pre>
-<pre><code>## 
-## Attaching package: &#39;dplyr&#39;</code></pre>
-<pre><code>## The following objects are masked from &#39;package:stats&#39;:
-## 
-##     filter, lag</code></pre>
-<pre><code>## The following objects are masked from &#39;package:base&#39;:
-## 
-##     intersect, setdiff, setequal, union</code></pre>
-<pre class="r"><code>latlon &lt;- c(32.79667, 70.32346) # emory
-ecc_label &lt;- &quot;Somewhere in the world&quot;
-ecc_popup &lt;- &quot;Fly here one day&quot;
-map &lt;- leaflet() %&gt;% 
-  addTiles() %&gt;% 
-  setView(latlon[2],latlon[1],zoom = 10) %&gt;% 
-  addMarkers(latlon[2],latlon[1],label=ecc_label,popup=ecc_popup) 
-map </code></pre>
-<div id="htmlwidget-1" style="width:672px;height:480px;" class="leaflet html-widget"></div>
-<script type="application/json" data-for="htmlwidget-1">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"http://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"http://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"}]},{"method":"addMarkers","args":[32.79667,70.32346,null,null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},"Fly here one day",null,null,null,"Somewhere in the world",{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"setView":[[32.79667,70.32346],10,[]],"limits":{"lat":[32.79667,32.79667],"lng":[70.32346,70.32346]}},"evals":[],"jsHooks":[]}</script>
-</div>
+

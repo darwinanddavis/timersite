@@ -1,6 +1,6 @@
 ---
 title: New maps to look at
-author: Matt Malishev
+author: ~
 date: '2019-12-07'
 slug: New-maps-to-look-at
 categories:
@@ -9,21 +9,4 @@ categories:
 tags:
   - maps
   - spatial
-image: /blog/New-maps-to-look-at_files/map_post.jpg # found in static 
 ---
-
-# New data viz for spatial data  
-
-```{r}
-require(leaflet)
-require(dplyr)
-latlon <- c(32.79667, 70.32346) # emory
-ecc_label <- "Somewhere in the world"
-ecc_popup <- "Fly here one day"
-map <- leaflet() %>% 
-  addTiles() %>% 
-  setView(latlon[2],latlon[1],zoom = 10) %>% 
-  addMarkers(latlon[2],latlon[1],label=ecc_label,popup=ecc_popup) 
-map 
-```
-
