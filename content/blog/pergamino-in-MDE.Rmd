@@ -13,3 +13,5 @@ image: images/blog/pergamino_in_MDE/pergamino.jpg
 ---
 
 # That time in Medellin 
+
+Removed pergamino.jpg from blog/ folder  
