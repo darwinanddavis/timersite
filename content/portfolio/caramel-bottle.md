@@ -1,17 +1,16 @@
 ---
-title: "Caramel Bottle"
-type: portfolio
+title: "Spatial"
 date: 2018-07-12T16:59:54+06:00
 description : "This is meta description"
-caption: Product Design
-image: images/portfolio/item-6.jpg
-category: ["product","mockup","design"]
-liveLink: https://www.themefisher.com
-client: Julia Robertson
+caption: Spatial simulation, geocode, LIDAR
+image: images/portfolio/project_spatial.jpg
+category: ["spatial","gps","lidar"]
+liveLink: "www.github.com/darwinanddavis"
+client: Centre of Excellence for Biosecurity Risk Analysis 
 submitDate: November 20, 2017
-location: 1201 park street, Avenue, Dhaka
+location: Melbourne, Australia
 ---
-### Consectur in Bibendum
+# Spatial simulation modelling  
 
 Totam rem aperiam eaque ipsa quae illo inventore veritatis et quasi architebetea.vitae dicta sunt explicabo. nemo enim ipsam volup as tatem quia voluptassit aspernatur.aut odit aut fugit sed quia consequuntur magni dolores eo ratione voluptatem.sequi nesciunt neque porro quisquam est dolorem ipsum quia dolor amet consectetur adipisci velit. lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 

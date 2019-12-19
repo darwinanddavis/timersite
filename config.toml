@@ -28,11 +28,15 @@ theme = "timer-hugo"
         name    = "Contact"
         url     = "contact"
         weight  = 6
+    [[menu.nav]]
+        name    = "Projects"
+        url     = "portfolio"
+        weight  = 7
 
 # Site Params
 [params]
     home = "Home"
-    logo = "images/mm.jpg"
+    logo = "images/mm.png"
     dateFormat = "6 January 2006"
     # Meta data
     description = "darwinanddavis"
@@ -43,7 +47,7 @@ theme = "timer-hugo"
     # Banner Section
     [params.banner]
         enable  = true
-        bgImage = "images/header.jpg"
+        bgImage = "images/mars.jpg"
         heading = "Matt Malishev"
         description = "I like my data diverse, my methods savvy, my analyses reproducible, and my outputs open access."
         btn     = true
@@ -60,8 +64,8 @@ theme = "timer-hugo"
     [params.about]
         enable  = true
         title   = "Bio"
-        content = "I’m a computational researcher at Emory University working on diverse data analysis problems from simulation modelling of human disease risk to spatial and bioenergetic modelling of ecological systems."
-        image   = "images/mm_large.jpg"
+        content = "I’m a computational researcher at Emory University working on diverse data analysis problems from simulation modelling of human disease risk to spatial and bioenergetic modelling of ecological systems. <br> <br> The header tabs provide a snapshot of some of my projects. <br> <br> Below are links to my digital footprint."
+        image   = "images/mm_large.png"
 
     # Call to Action
     [params.cta]
@@ -74,13 +78,13 @@ theme = "timer-hugo"
     # Portfolio Section On Homepage
     [params.portfolio]
         enable  = true
-        title   = "Latest Works"
-        subtitle= "Aliquam lobortis. Maecenas vestibulum mollis diam. Pellentesque auctor neque nec urna. Nulla sit amet est. Aenean posuere tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus."
+        title   = "Projects"
+        subtitle= "Browse some of my current data science projects"
 
     [params.footer]
         [[params.footer.socialIcon]]
-            icon = "ion-social-facebook"
-            url = "#"
+            icon = "ion-social-github"
+            url = "https://github.com/darwinanddavis"
 
         [[params.footer.socialIcon]]
             icon = "ion-social-instagram"

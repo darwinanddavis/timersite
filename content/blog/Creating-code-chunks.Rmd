@@ -1,0 +1,101 @@
+---
+title: Creating code chunks
+author: Matt Malishev
+date: '2019-12-09'
+slug: Creating-code-chunks
+categories:
+  - south america
+  - mde
+tags:
+  - south america
+  - mde
+---
+
+# Testing code chunk outputs  
+```{r,echo=F,warning=F,message=F}
+
+suppressWarnings(pacman::p_load(DT,htmlwidgets,viridis))
+
+```
+
+The below code should be highlighted. 
+
+```{r, echo=T, eval=T,out.width="100%",message=F,warning=F}
+require(plotly)
+gdf <- data.frame("A" = sample(500),
+                  "B" = sample(500))
+require(ggplot2)
+p <- ggplot(gdf,aes(A,B))+geom_point(color="pink",size=3,show.legend = F) + geom_line(color="black",show.legend = F) + labs(title="Random plot data") + theme_minimal()
+ggplotly(p)
+
+```
+
+
+
+\newpage
+
+
+
+## Use buttons or tabs for sub-chapters {.tabset .tabset-fade .tabset-pills}  
+
+### Chapter 1
+
+.
+.
+.
+.
+.
+
+*Then you can add whatever you want here* like you would normally write in the `Rmd` file.
+
+.
+.
+.
+.
+.
+
+
+### Chapter 2 (with new code)  
+Here's an Easter egg for you ...  
+
+```{r,echo=F,message=F}
+set.seed(12) # set a number seed for reproducible number results
+nn <- 100
+
+random_data <- data.frame("X" = rnorm(nn),
+           "Y" = sample(nn/2,nn,replace=T),
+           "NN" = nn)
+
+p <- ggplot() +
+  geom_point(data=random_data,aes(X,Y,
+                 colour=rainbow(nn),
+                 size=sample(Y)/5),
+                 alpha=abs(rnorm(nn))) +
+  labs(x = "Random normally distributed data",
+       y = "Sampled integers") +
+  theme_minimal() +
+  theme(legend.position='none')
+ggplotly(p,tooltip=c("X","Y"))
+
+```
+
+### More tables  
+Here's a new way of creating tables using the `DT` package  
+  
+```{r,cache=T,warning=F, echo=F}
+suppressWarnings(pacman::p_load(DT,htmlwidgets))
+caption <- "Table 1. The 'mtcars' dataset presented in a datatable. Try editing the columns and cells."
+datatable(mtcars,
+          rownames = T,
+          filter="top",
+          options = list(pageLength = 5, scrollX=T),
+          class = "cell-border stripe",
+          editable = "cell",
+          caption = caption
+          )
+```
+
+
+<!-- *** -->
+
+

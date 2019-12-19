@@ -9,5 +9,5 @@ categories:
 tags:
   - maps
   - spatial
-image: blog/blog-template_files/map_post.jpg
+image: images/blog/blog_template/mde.jpg
 ---
