@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Matt Malishev</title>
+    <link>https://suspicious-booth-fced28.netlify.app/</link>
+    <description>Recent content on Matt Malishev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 09 Dec 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://suspicious-booth-fced28.netlify.app/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Creating code chunks</title>
+      <link>https://suspicious-booth-fced28.netlify.app/blog/creating-code-chunks/</link>
+      <pubDate>Mon, 09 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://suspicious-booth-fced28.netlify.app/blog/creating-code-chunks/</guid>
+      <description>MathJax.Hub.Config({ TeX: { equationNumbers: {autoNumber: &#34;all&#34;} } });  Testing code chunk outputs The below code should be highlighted.
+require(plotly) gdf &amp;lt;- data.frame(A = sample(500), B = sample(500)) require(ggplot2) p &amp;lt;- ggplot(gdf, aes(A, B)) + geom_point(color = &amp;quot;pink&amp;quot;, size = 3, show.legend = F) + geom_line(color = &amp;quot;black&amp;quot;, show.</description>
+    </item>
+    
+    <item>
+      <title>pergamino in MDE</title>
+      <link>https://suspicious-booth-fced28.netlify.app/blog/pergamino-in-mde/</link>
+      <pubDate>Sun, 08 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://suspicious-booth-fced28.netlify.app/blog/pergamino-in-mde/</guid>
+      <description> That time in Medellin Removed pergamino.jpg from blog/ folder. CHECK.
+Changed image size in static/ folder. CHECK.
+Changed image completely and didn&#39;t push.
+ </description>
+    </item>
+    
+    <item>
+      <title>blog template</title>
+      <link>https://suspicious-booth-fced28.netlify.app/blog/blog-template/</link>
+      <pubDate>Sat, 07 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://suspicious-booth-fced28.netlify.app/blog/blog-template/</guid>
+      <description>MathJax.Hub.Config({ TeX: { equationNumbers: {autoNumber: &#34;all&#34;} } });  Define equations Writing math expressions $c^{2} = a^{2} + b^{2}$ (with backticks) and \(c^{2} = a^{2} + b^{2}\) (without backticks).
+\[ \phi n(r,t) = \sum_{i, j} a(p_{i},E_{j}) e^{ \frac{i} {h} (p_{i} \cdot r - E_{j}t) } \]
+ Display figs side by side boxplot(1:10) plot(rnorm(10))  Create divs  
+ Praise the lord, I was born to travel
+Feeling like Slash in front of the chapel</description>
+    </item>
+    
+    <item>
+      <title>A New Year a New Posibility</title>
+      <link>https://suspicious-booth-fced28.netlify.app/blog/a-new-year-a-new-posibility/</link>
+      <pubDate>Sun, 15 Jul 2018 12:29:40 +0600</pubDate>
+      
+      <guid>https://suspicious-booth-fced28.netlify.app/blog/a-new-year-a-new-posibility/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas sit expedita, iusto repellendus cumque, officia architecto consequatur illo fuga eum sed ut autem eos voluptas. Nemo, a, rem! Atque quisquam aperiam eaque tenetur autem, soluta itaque omnis. Minus nesciunt, sint, animi illum quo ab voluptate esse delectus unde maiores iure, quasi a suscipit ipsam aliquid voluptatem. Perspiciatis eveniet, pariatur illum aut cum dolor neque consequatur error aliquid facilis in quasi temporibus assumenda tempore, doloremque autem saepe enim nihil.</description>
+    </item>
+    
+    <item>
+      <title>Building an Online Audience</title>
+      <link>https://suspicious-booth-fced28.netlify.app/blog/building-an-online-audience/</link>
+      <pubDate>Sun, 15 Jul 2018 12:27:38 +0600</pubDate>
+      
+      <guid>https://suspicious-booth-fced28.netlify.app/blog/building-an-online-audience/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas sit expedita, iusto repellendus cumque, officia architecto consequatur illo fuga eum sed ut autem eos voluptas. Nemo, a, rem! Atque quisquam aperiam eaque tenetur autem, soluta itaque omnis. Minus nesciunt, sint, animi illum quo ab voluptate esse delectus unde maiores iure, quasi a suscipit ipsam aliquid voluptatem. Perspiciatis eveniet, pariatur illum aut cum dolor neque consequatur error aliquid facilis in quasi temporibus assumenda tempore, doloremque autem saepe enim nihil.</description>
+    </item>
+    
+    <item>
+      <title>Space Shouldn&#39;t Be the Final Frontier</title>
+      <link>https://suspicious-booth-fced28.netlify.app/blog/space-shouldnt-be-the-final-frontier/</link>
+      <pubDate>Sun, 15 Jul 2018 12:21:58 +0600</pubDate>
+      
+      <guid>https://suspicious-booth-fced28.netlify.app/blog/space-shouldnt-be-the-final-frontier/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas sit expedita, iusto repellendus cumque, officia architecto consequatur illo fuga eum sed ut autem eos voluptas. Nemo, a, rem! Atque quisquam aperiam eaque tenetur autem, soluta itaque omnis. Minus nesciunt, sint, animi illum quo ab voluptate esse delectus unde maiores iure, quasi a suscipit ipsam aliquid voluptatem. Perspiciatis eveniet, pariatur illum aut cum dolor neque consequatur error aliquid facilis in quasi temporibus assumenda tempore, doloremque autem saepe enim nihil.</description>
+    </item>
+    
+    <item>
+      <title>Spatial</title>
+      <link>https://suspicious-booth-fced28.netlify.app/portfolio/caramel-bottle/</link>
+      <pubDate>Thu, 12 Jul 2018 16:59:54 +0600</pubDate>
+      
+      <guid>https://suspicious-booth-fced28.netlify.app/portfolio/caramel-bottle/</guid>
+      <description>Spatial simulation modelling Totam rem aperiam eaque ipsa quae illo inventore veritatis et quasi architebetea.vitae dicta sunt explicabo. nemo enim ipsam volup as tatem quia voluptassit aspernatur.aut odit aut fugit sed quia consequuntur magni dolores eo ratione voluptatem.sequi nesciunt neque porro quisquam est dolorem ipsum quia dolor amet consectetur adipisci velit. lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</description>
+    </item>
+    
+    <item>
+      <title>Shopping Bag Concept</title>
+      <link>https://suspicious-booth-fced28.netlify.app/portfolio/shopping-bag-concept/</link>
+      <pubDate>Thu, 12 Jul 2018 16:58:55 +0600</pubDate>
+      
+      <guid>https://suspicious-booth-fced28.netlify.app/portfolio/shopping-bag-concept/</guid>
+      <description>Consectur in Bibendum Totam rem aperiam eaque ipsa quae illo inventore veritatis et quasi architebetea.vitae dicta sunt explicabo. nemo enim ipsam volup as tatem quia voluptassit aspernatur.aut odit aut fugit sed quia consequuntur magni dolores eo ratione voluptatem.sequi nesciunt neque porro quisquam est dolorem ipsum quia dolor amet consectetur adipisci velit. lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</description>
+    </item>
+    
+    <item>
+      <title>Makeup Element</title>
+      <link>https://suspicious-booth-fced28.netlify.app/portfolio/makeup-element/</link>
+      <pubDate>Thu, 12 Jul 2018 16:57:54 +0600</pubDate>
+      
+      <guid>https://suspicious-booth-fced28.netlify.app/portfolio/makeup-element/</guid>
+      <description>Consectur in Bibendum Totam rem aperiam eaque ipsa quae illo inventore veritatis et quasi architebetea.vitae dicta sunt explicabo. nemo enim ipsam volup as tatem quia voluptassit aspernatur.aut odit aut fugit sed quia consequuntur magni dolores eo ratione voluptatem.sequi nesciunt neque porro quisquam est dolorem ipsum quia dolor amet consectetur adipisci velit. lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</description>
+    </item>
+    
+    <item>
+      <title>Table Design</title>
+      <link>https://suspicious-booth-fced28.netlify.app/portfolio/table-design/</link>
+      <pubDate>Thu, 12 Jul 2018 16:56:54 +0600</pubDate>
+      
+      <guid>https://suspicious-booth-fced28.netlify.app/portfolio/table-design/</guid>
+      <description>Consectur in Bibendum Totam rem aperiam eaque ipsa quae illo inventore veritatis et quasi architebetea.vitae dicta sunt explicabo. nemo enim ipsam volup as tatem quia voluptassit aspernatur.aut odit aut fugit sed quia consequuntur magni dolores eo ratione voluptatem.sequi nesciunt neque porro quisquam est dolorem ipsum quia dolor amet consectetur adipisci velit. lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</description>
+    </item>
+    
+    <item>
+      <title>Bottle Mockup</title>
+      <link>https://suspicious-booth-fced28.netlify.app/portfolio/bottle-mockup/</link>
+      <pubDate>Thu, 12 Jul 2018 16:54:54 +0600</pubDate>
+      
+      <guid>https://suspicious-booth-fced28.netlify.app/portfolio/bottle-mockup/</guid>
+      <description>Consectur in Bibendum Totam rem aperiam eaque ipsa quae illo inventore veritatis et quasi architebetea.vitae dicta sunt explicabo. nemo enim ipsam volup as tatem quia voluptassit aspernatur.aut odit aut fugit sed quia consequuntur magni dolores eo ratione voluptatem.sequi nesciunt neque porro quisquam est dolorem ipsum quia dolor amet consectetur adipisci velit. lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</description>
+    </item>
+    
+    <item>
+      <title>Dew Drop</title>
+      <link>https://suspicious-booth-fced28.netlify.app/portfolio/dew-drop/</link>
+      <pubDate>Thu, 12 Jul 2018 16:53:54 +0600</pubDate>
+      
+      <guid>https://suspicious-booth-fced28.netlify.app/portfolio/dew-drop/</guid>
+      <description>Consectur in Bibendum Totam rem aperiam eaque ipsa quae illo inventore veritatis et quasi architebetea.vitae dicta sunt explicabo. nemo enim ipsam volup as tatem quia voluptassit aspernatur.aut odit aut fugit sed quia consequuntur magni dolores eo ratione voluptatem.sequi nesciunt neque porro quisquam est dolorem ipsum quia dolor amet consectetur adipisci velit. lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</description>
+    </item>
+    
+    <item>
+      <title>How To Setup Timer Hugo</title>
+      <link>https://suspicious-booth-fced28.netlify.app/blog/installation/</link>
+      <pubDate>Sun, 08 Jul 2018 12:22:40 +0600</pubDate>
+      
+      <guid>https://suspicious-booth-fced28.netlify.app/blog/installation/</guid>
+      <description>Install this template by following those simple steps: STEP-1 : Hugo installation Check this link below for install hugo on your computer. hugo install documentation
+STEP-2 : Create your project Hugo provides a new command to create a new website.
+hugo new site &amp;lt;new_project&amp;gt; STEP-3 : Install the theme Run this command
+hugo new site timer-hugo and then go to the themes folder inside of timer-hugo folder. You can also use this command cd timer-hugo/themes for going to this folder.</description>
+    </item>
+    
+  </channel>
+</rss>

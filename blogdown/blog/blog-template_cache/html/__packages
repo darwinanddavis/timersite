@@ -1,0 +1,9 @@
+base
+dplyr
+ggplot2
+plotly
+DT
+htmlwidgets
+viridisLite
+viridis
+reticulate

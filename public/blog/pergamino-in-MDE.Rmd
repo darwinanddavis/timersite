@@ -1,0 +1,19 @@
+---
+title: pergamino in MDE
+author: Matt Malishev
+date: '2019-12-08'
+slug: pergamino-in-MDE
+categories:
+  - south america
+  - mde
+tags:
+  - south america
+  - mde
+image: images/blog/pergamino_in_MDE/mde.jpg
+---
+
+# That time in Medellin 
+
+Removed pergamino.jpg from blog/ folder. CHECK.  
+Changed image size in static/ folder. CHECK.  
+Changed image completely and didn't push.  

@@ -1,0 +1,13 @@
+base
+methods
+datasets
+utils
+grDevices
+graphics
+stats
+DT
+htmlwidgets
+viridisLite
+viridis
+ggplot2
+plotly

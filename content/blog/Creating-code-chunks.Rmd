@@ -9,18 +9,48 @@ categories:
 tags:
   - south america
   - mde
+output:
+blogdown:
+  html_page:
+    code_folding: show
+    df_print: paged
+    highlight: tango
+    toc: true
 ---
 
-# Testing code chunk outputs  
-```{r,echo=F,warning=F,message=F}
+<!-- this enables math encoding in the knitted documents  -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({ TeX: { equationNumbers: {autoNumber: "all"} } });
+</script>
 
-suppressWarnings(pacman::p_load(DT,htmlwidgets,viridis))
+```{r, set-options, echo = F, cache = T,message=F}
+knitr::opts_chunk$set(
+ eval = T, # run all code
+ echo = T, # show code chunks in output 
+ tidy=TRUE, # make output as tidy
+ message = F,  # mask all messages
+ warning = F, # mask all warnings 
+ out.width="100%",
+ size="small" # set code chunk size, 
+)
+
+### run this once  
+# tinytex::install_tinytex()
+# require(tinytex)
+# install.packages("pacman")
+# require(pacman)
+
+suppressWarnings(pacman::p_load(dplyr,ggplot2,plotly,DT,htmlwidgets,viridis,reticulate))
+# update.packages("htmlwidgets")
 
 ```
 
+
+# Testing code chunk outputs  
+
 The below code should be highlighted. 
 
-```{r, echo=T, eval=T,out.width="100%",message=F,warning=F}
+```{r}
 require(plotly)
 gdf <- data.frame("A" = sample(500),
                   "B" = sample(500))
@@ -31,14 +61,40 @@ ggplotly(p)
 ```
 
 
+```{r}
+
+devtools::install_github("jcheng5/d3scatter")
+require(pacman)
+p_load(d3scatter,crosstalk,leaflet,tibble,httpuv)
+
+sd <- SharedData$new(quakes[sample(nrow(quakes), 100),])
+
+bscols(widths = c(12, 6, 6),
+       filter_slider("stations", "Stations", sd, ~stations),
+       leaflet(sd, width = "100%", height = 400) %>% 
+         addTiles() %>% 
+         addCircleMarkers(lng=sd$data()[,"long"],
+                    lat=sd$data()[,"lat"],
+                    stroke = F,
+                    fill = T,
+                    color = "red",
+                    fillOpacity = 0.5,
+                    radius = ~mag + 2,
+                    label = ~paste0("Depth: ",as.character(depth))
+                    ),
+       d3scatter(sd, width = "100%", height = 400, ~mag, ~depth, color = ~stations)
+)
+
+```
+
 
 \newpage
 
 
 
-## Use buttons or tabs for sub-chapters {.tabset .tabset-fade .tabset-pills}  
+## Use buttons or tabs for sub-chapters {.tabset .tabset-fade .tabset-pills}   
 
-### Chapter 1
+### Chapter 1  
 
 .
 .
@@ -59,6 +115,7 @@ ggplotly(p)
 Here's an Easter egg for you ...  
 
 ```{r,echo=F,message=F}
+suppressWarnings(pacman::p_load(plotly,ggplot2))
 set.seed(12) # set a number seed for reproducible number results
 nn <- 100
 
@@ -81,7 +138,7 @@ ggplotly(p,tooltip=c("X","Y"))
 
 ### More tables  
 Here's a new way of creating tables using the `DT` package  
-  
+
 ```{r,cache=T,warning=F, echo=F}
 suppressWarnings(pacman::p_load(DT,htmlwidgets))
 caption <- "Table 1. The 'mtcars' dataset presented in a datatable. Try editing the columns and cells."
@@ -97,5 +154,8 @@ datatable(mtcars,
 
 
 <!-- *** -->
+
+
+
 
 

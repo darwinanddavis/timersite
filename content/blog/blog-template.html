@@ -10,8 +10,69 @@ tags:
   - maps
   - spatial
 image: images/blog/blog_template/mde.jpg
+output:
+  blogdown:
+    html_page:
+      df_print: paged
+      toc: true
 ---
 
 
 
+<!-- this enables math encoding in the knitted documents  -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({ TeX: { equationNumbers: {autoNumber: "all"} } });
+</script>
 
+<div id="define-equations" class="section level2">
+<h2>Define equations</h2>
+<hr />
+<p>Writing math expressions <code>$c^{2} = a^{2} + b^{2}$</code> (with backticks) and <span class="math inline">\(c^{2} = a^{2} + b^{2}\)</span> (without backticks).</p>
+<p><span class="math display">\[
+\phi n(r,t) =
+  \sum_{i, j} a(p_{i},E_{j})
+  e^{
+    \frac{i}
+    {h}
+    (p_{i} \cdot r - E_{j}t)
+}
+\]</span></p>
+</div>
+<div id="display-figs-side-by-side" class="section level2">
+<h2>Display figs side by side</h2>
+<hr />
+<pre class="r"><code>boxplot(1:10)
+plot(rnorm(10))</code></pre>
+<p><img src="/blog/blog-template_files/figure-html/unnamed-chunk-1-1.png" width="50%" /><img src="/blog/blog-template_files/figure-html/unnamed-chunk-1-2.png" width="50%" /></p>
+</div>
+<div id="create-divs" class="section level2">
+<h2>Create divs</h2>
+<hr />
+<!-- ———————————————————————————————————————————————————————————————————————————— -->
+<!-- #https://holtzy.github.io/Pimp-my-rmd/ -->
+<div class="row">
+<div class="col-md-4">
+<p><img src="/blog/blog-template_files/figure-html/unnamed-chunk-2-1.png" width="100%" /></p>
+</div>
+<div class="col-md-4">
+<p><br><br></p>
+<blockquote>
+<p>Praise the lord, I was born to travel<br />
+Feeling like Slash in front of the chapel<br />
+I'm leaned back with the Les Paul<br />
+Shit I smoke is like cholesterol<br />
+Spilled dressin' on the vest at the festival<br />
+The best of all, had a midget Puerto Rican at my beckon call</p>
+</blockquote>
+</div>
+<div class="col-md-4">
+<p><br><br> Pump the bass in the trunk<br />
+It rattled like a baby hand<br />
+Except this toy cost 80 grand<br />
+And I'm crazy tan, from all the places that I've been<br />
+Just from writing words with a pen</p>
+</div>
+</div>
+<p><!-- close div --></p>
+<!-- ———————————————————————————————————————————————————————————————————————————— -->
+</div>

@@ -1,4 +1,4 @@
-baseURL = "https://suspicious-booth-fced28.netlify.com"
+baseURL = "https://suspicious-booth-fced28.netlify.app"
 languageCode = "en-us"
 title = "Matt Malishev"
 theme = "timer-hugo"
@@ -47,7 +47,7 @@ theme = "timer-hugo"
     # Banner Section
     [params.banner]
         enable  = true
-        bgImage = "images/mars.jpg"
+        bgImage = "images/header2.png"
         heading = "Matt Malishev"
         description = "I like my data diverse, my methods savvy, my analyses reproducible, and my outputs open access."
         btn     = true
