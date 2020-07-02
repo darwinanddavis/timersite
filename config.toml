@@ -7,31 +7,31 @@ theme = "timer-hugo"
 
 # Site Menus
 [menu]
-    # Navbar Menus
-    [[menu.nav]]
-        name    = "About"
-        url     = "about"
-        weight  = 2
-    [[menu.nav]]
-        name    = "Blog"
-        url     = "blog"
-        weight  = 3
-    [[menu.nav]]
-        name    = "Service"
-        url     = "service"
-        weight  = 4
-    [[menu.nav]]
-        name    = "Gallery"
-        url     = "gallery"
-        weight  = 5
-    [[menu.nav]]
-        name    = "Contact"
-        url     = "contact"
-        weight  = 6
-    [[menu.nav]]
-        name    = "Projects"
-        url     = "portfolio"
-        weight  = 7
+# Navbar Menus
+[[menu.main]]
+    name    = "About"
+    url     = "about"
+    weight  = 2
+[[menu.main]]
+    name    = "Blog"
+    url     = "blog"
+    weight  = 3
+[[menu.main]]
+    name    = "Service"
+    url     = "service"
+    weight  = 4
+[[menu.main]]
+    name    = "Gallery"
+    url     = "gallery"
+    weight  = 5
+[[menu.main]]
+    name    = "Contact"
+    url     = "contact"
+    weight  = 6
+[[menu.main]]
+    name    = "Projects"
+    url     = "portfolio"
+    weight  = 7
 
 # Site Params
 [params]
@@ -47,18 +47,22 @@ theme = "timer-hugo"
     # Banner Section
     [params.banner]
         enable  = true
-        bgImage = "images/header2.png"
+        bgImage = "images/header.jpeg"
         heading = "Matt Malishev"
-        description = "I like my data diverse, my methods savvy, my analyses reproducible, and my outputs open access."
+        description = "I like my data diverse, my methods clean, my analyses reproducible, and my outputs open access."
         btn     = true
         btnText = "Check out my projects"
         btnURL  = "projects"
         [[params.banner.flipText]]
-            title   = "spatial modelling"
+            title   = "data analysis"
         [[params.banner.flipText]]
-            title   = "simulation modelling"
+            title   = "time series modelling"
         [[params.banner.flipText]]
             title   = "geospatial analytics"
+        [[params.banner.flipText]]
+            title   = "data viz"
+        [[params.banner.flipText]]
+            title   = "cartography"
 
     # Homepage About Section
     [params.about]
@@ -70,9 +74,9 @@ theme = "timer-hugo"
     # Call to Action
     [params.cta]
         enable  = true
-        title   = "SO WHAT YOU THINK ?"
-        content = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis,<br>possimus commodi, fugiat magnam temporibus vero magni recusandae? Dolore, maxime praesentium."
-        btnText = "Connect with me"
+        title   = "Reach out to me"  
+        content = "Like what you see? Connect with me for work, collaborations, new ideas or projects, or just to chat about all things data"  
+        btnText = "Email"
         btnURL  = "/contact"
 
     # Portfolio Section On Homepage
@@ -92,4 +96,8 @@ theme = "timer-hugo"
 
         [[params.footer.socialIcon]]
             icon = "ion-social-linkedin"
-            url = "#"
+            url = "https://www.linkedin.com/in/mmalishev/"
+
+        [[params.footer.socialIcon]]
+            icon = "ion-social-twitter"
+            url = "https://twitter.com/darwinanddavis"
