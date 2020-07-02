@@ -2,48 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Matt Malishev</title>
-    <link>https://suspicious-booth-fced28.netlify.app/categories/</link>
+    <link>/categories/</link>
     <description>Recent content in Categories on Matt Malishev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 09 Dec 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://suspicious-booth-fced28.netlify.app/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>mde</title>
-      <link>https://suspicious-booth-fced28.netlify.app/categories/mde/</link>
+      <link>/categories/mde/</link>
       <pubDate>Mon, 09 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://suspicious-booth-fced28.netlify.app/categories/mde/</guid>
+      <guid>/categories/mde/</guid>
       <description></description>
     </item>
     
     <item>
       <title>south america</title>
-      <link>https://suspicious-booth-fced28.netlify.app/categories/south-america/</link>
+      <link>/categories/south-america/</link>
       <pubDate>Mon, 09 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://suspicious-booth-fced28.netlify.app/categories/south-america/</guid>
+      <guid>/categories/south-america/</guid>
       <description></description>
     </item>
     
     <item>
       <title>maps</title>
-      <link>https://suspicious-booth-fced28.netlify.app/categories/maps/</link>
+      <link>/categories/maps/</link>
       <pubDate>Sat, 07 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://suspicious-booth-fced28.netlify.app/categories/maps/</guid>
+      <guid>/categories/maps/</guid>
       <description></description>
     </item>
     
     <item>
       <title>spatial</title>
-      <link>https://suspicious-booth-fced28.netlify.app/categories/spatial/</link>
+      <link>/categories/spatial/</link>
       <pubDate>Sat, 07 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://suspicious-booth-fced28.netlify.app/categories/spatial/</guid>
+      <guid>/categories/spatial/</guid>
       <description></description>
     </item>
     

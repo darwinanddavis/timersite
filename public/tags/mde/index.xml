@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>mde on Matt Malishev</title>
-    <link>https://suspicious-booth-fced28.netlify.app/tags/mde/</link>
+    <link>/tags/mde/</link>
     <description>Recent content in mde on Matt Malishev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 09 Dec 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://suspicious-booth-fced28.netlify.app/tags/mde/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/mde/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Creating code chunks</title>
-      <link>https://suspicious-booth-fced28.netlify.app/blog/creating-code-chunks/</link>
+      <link>/blog/creating-code-chunks/</link>
       <pubDate>Mon, 09 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://suspicious-booth-fced28.netlify.app/blog/creating-code-chunks/</guid>
+      <guid>/blog/creating-code-chunks/</guid>
       <description>MathJax.Hub.Config({ TeX: { equationNumbers: {autoNumber: &#34;all&#34;} } });  Testing code chunk outputs The below code should be highlighted.
-require(plotly) gdf &amp;lt;- data.frame(A = sample(500), B = sample(500)) require(ggplot2) p &amp;lt;- ggplot(gdf, aes(A, B)) + geom_point(color = &amp;quot;pink&amp;quot;, size = 3, show.legend = F) + geom_line(color = &amp;quot;black&amp;quot;, show.</description>
+require(plotly) ## Loading required package: plotly ## Loading required package: ggplot2 ## ## Attaching package: &amp;#39;plotly&amp;#39; ## The following object is masked from &amp;#39;package:ggplot2&amp;#39;: ## ## last_plot ## The following object is masked from &amp;#39;package:stats&amp;#39;: ## ## filter ## The following object is masked from &amp;#39;package:graphics&amp;#39;: ## ## layout gdf &amp;lt;- data.</description>
     </item>
     
     <item>
       <title>pergamino in MDE</title>
-      <link>https://suspicious-booth-fced28.netlify.app/blog/pergamino-in-mde/</link>
+      <link>/blog/pergamino-in-mde/</link>
       <pubDate>Sun, 08 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://suspicious-booth-fced28.netlify.app/blog/pergamino-in-mde/</guid>
+      <guid>/blog/pergamino-in-mde/</guid>
       <description> That time in Medellin Removed pergamino.jpg from blog/ folder. CHECK.
 Changed image size in static/ folder. CHECK.
 Changed image completely and didn&#39;t push.
